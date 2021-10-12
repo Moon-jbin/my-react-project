@@ -1,13 +1,165 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(http://www.matcl.com/files/attach/images/2791205/708/840/002/e8932d2eadbb6d0b937c47481ebe1c34.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* About */
+#container {
+  width: 900px;
+  height: 950px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#profile-image {
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  background-image: url(./images/image.jpg);
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+aside {
+  float: left;
+  width: 300px;
+  padding: 20px 50px;
+  height: 950px;
+}
+
+main {
+  width: 500px;
+  height: 100%;
+  color: black;
+  float: right;
+}
+
+li,
+p {
+  line-height: 2;
+  font-size: 0.9em;
+}
+
+#detail {
+  position: relative;
+  top: 80px;
+}
+
+#sns {
+  position: relative;
+  top: 100px;
+}
+
+main > section {
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 1px double #222;
+}
+
+section > p,
+section > table {
+  margin-left: 50px;
+}
+
+aside h1 {
+  font-size: 1.8em;
+  font-variant: small-caps;
+}
+
+aside h2 {
+  font-size: 1.2em;
+}
+
+#namecard p {
+  font-size: 0.9em;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  line-height: 0.9em;
+}
+
+section > p {
+  font-size: 0.9em;
+}
+
+caption {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+table {
+  width: 90%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 900;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+td {
+  font-weight: 700;
+}
+
+th,
+td {
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+#sns > ul {
+  padding-left: 0;
+}
+
+#sns > ul > li {
+  display: inline-block;
+  width: 80px;
+}
+
+/* body */
+
+header {
+  background-color: grey;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: honeydew;
+  text-align: center;
+}
+
+#Nav {
+  position: absolute;
+  display: flex;
+}
+
+.NavButton {
+  margin: 0 5px 0 10px;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 2px;
+}
+.NavButton:visited {
+  color: black;
+}
+
+.NavButton:hover {
+  color: white;
+  cursor: pointer;
 }
