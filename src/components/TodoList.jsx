@@ -26,7 +26,10 @@ export default class TodoItem extends React.Component {
           &times;
         </div>
 
-        <div className={`todo-text ${checked ? "checked" : ""}`}>
+        <div
+          style={{ color }}
+          className={`todo-text ${checked ? checked : "checked"}`}
+        >
           <div>{text}</div>
         </div>
 
